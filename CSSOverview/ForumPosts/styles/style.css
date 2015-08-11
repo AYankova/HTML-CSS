@@ -1,0 +1,55 @@
+body{
+	background-color: #A9A9A9;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+
+body > header, h1 {
+	color: #F8F9D1
+}
+
+body > header > h1, nav{
+	font-size: 40px;
+	text-align: center;
+}
+
+nav ul li{
+	list-style: none;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #FEFEFE;
+}
+
+nav ul li a#selected, a:hover{
+	background-color: #D3D3D3;
+}
+
+nav ul li a:hover, li:last-child a{
+	text-decoration: underline;
+}
+
+section article header h1{
+	font-size: 28px;
+}
+
+p{
+	font-size: 17px;
+}
+
+footer p{
+	font-size: 13px;
+}
+
+section article footer p a{
+	text-decoration: none;
+	color: black;
+}
+
+body > footer{
+	text-align: center;
+	font-size: 17px;
+}

@@ -1,0 +1,113 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Calibri, sans-serif;
+	font-size: 16px;
+}
+
+body #content{
+		border: 2px solid #515151;
+		border-radius: 10px;
+		overflow: auto;
+		width: 660px;
+}
+
+header nav{
+	text-align: center;
+}
+
+header nav a{
+	font-size: 24px;
+	color: #37C1F2;
+	font-weight: bold;
+}
+
+hr{
+	width: 95%;
+}
+
+section .table{
+	float: left;
+	margin-bottom: 10px;
+}
+
+section div{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.table{
+	display: table-cell;
+	padding: 5px 8px 5px 3px;
+	width: 430px;
+	border: 2px solid #515151;
+	margin: 10px;
+}
+
+section > .table-row{
+	display: table-row;
+	border: none;
+}
+
+section > .table-col{
+	display: table-cell;
+	border: none;
+	padding: 10px;
+}
+
+fieldset{
+	border: 2px solid #515151;
+	font-weight: bold;
+}
+
+fieldset img{
+	float: left;
+	width: 80px;
+	height: 65px;
+}
+
+fieldset .components{
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+fieldset .components:first-of-type {
+	margin-top: 20px;
+}
+
+fieldset .components:nth-of-type(3), fieldset .components:nth-of-type(4) {
+	margin-left: 8px;
+	margin-top: 0px;
+}
+
+aside ul{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	padding: 60px 0 40px 0;
+	margin: 0;	
+}
+
+aside ul li{
+	margin: 0;
+	padding: 5px 5px 31px 0;
+	font-size: 18px;
+	font-weight: bold;
+	width: 170px;
+}
+
+aside ul li:last-of-type{
+	padding-bottom: 0;
+}
+
+aside ul li div{
+	float: right;
+}
+
+input[type="range"]{
+	padding: 0;
+	margin: 0;
+	width: 160px;
+}

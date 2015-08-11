@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML Form</title>
+</head>
+<body>
+	<form method="get" action="apply-now.php">
+		<div>
+			<label for="name">Member name : </label>
+			<input type="text" name="name" id="name" required="required"/>
+			<label for="name"><strong>*req</strong></label>
+		</div>
+		<div>
+			<label for="email">Email :</label>
+			<input type="text"
+			name="email"
+			id="email" 
+			required="required"
+			pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+			/>
+			<label for="email" ><strong>*req</strong></label>
+		</div>
+		<div>
+			<label for="school">School :</label>
+			<input type="text" name="school" id="school" required="required"/>
+			<label for="school"><strong>*req</strong></label>
+		</div>
+		<div>
+			<input type="submit" name="submit" value="Submit"/>
+		</div>
+	</form>
+</body>
+</html>

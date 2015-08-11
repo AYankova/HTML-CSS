@@ -1,0 +1,41 @@
+﻿table {
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-bottom: 1px solid #b4a9a9;
+}
+
+td, th {
+    width: 100px;
+    height: 30px;
+
+    padding-right: 30px;
+    padding-left: 5px;
+    text-align:left;
+
+    border-right: 1px solid #b4a9a9;
+}
+
+td:last-child, th:last-child {
+    border-right: 0;
+    width: 70px;
+}
+
+th {
+    background-color: #52B506;
+    color: white;
+    border-bottom: 1px solid #b4a9a9;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #ECECD8;
+}
+
+img {
+    height: 12px;
+}
+

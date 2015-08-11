@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Notebook Store</title>
+	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>
+	<script>
+		function outputMinPrice(vol) {
+			document.querySelector('#minprice').value = vol;
+		}
+		function outputMaxPrice(vol) {
+			document.querySelector('#maxprice').value = vol;
+		}
+		function outputMinRAM(vol) {
+			document.querySelector('#minram').value = vol;
+		}
+		function outputMaxRAM(vol) {
+			document.querySelector('#maxram').value = vol;
+		}
+	</script>
+</head>
+<body>
+	<table class="main">
+		<thead>
+			<tr>
+				<th colspan="2">
+					<a href="#">Apple</a>
+					<a href="#">Toshiba</a>
+					<a href="#">Lenovo</a>
+					<a href="#">Dell</a>
+					<a href="#">Asus</a>
+					<a href="#">Acer</a>
+					<a href="#">HP</a>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<table class="tmac">
+						<tr>
+							<td>
+								<fieldset  class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air" />
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<fieldset class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<fieldset class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset class="fmac">
+									<legend>Apple MacBook Air</legend>
+									<table>
+										<tr>
+											<td rowspan="3">
+												<img src="mac.jpg" class="image" alt="Apple MacBook Air"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>
+												64 GB SSD
+											</td>
+										</tr>
+										<tr>
+											<td>
+												2 GB DDR
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1300 USD
+											</td>
+											<td>
+												Intel Core i5
+											</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>
+								Min price: <output for=minprice id=minprice>1000</output>USD <br />
+								<input id="sminprice" type="range" min="500" max="1500" step="50" oninput="outputMinPrice(value)" />							</td>
+							</tr>
+							<tr>
+								<td>
+									Max price: <output for=maxprice id=maxprice>1000</output>USD <br />
+									<input id="smaxprice" type="range" min="500" max="1500" step="50" oninput="outputMaxPrice(value)" />
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Min RAM: <output for=minram id=minram>12</output>GB <br />
+									<input id="sminram" type="range" min="4" max="16" step="4" oninput="outputMinRAM(value)" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Max RAM: <output for=maxram id=maxram>12</output>GB <br />
+									<input id="smaxram" type="range" min="4" max="16" step="4" oninput="outputMaxRAM(value)" />
+								</td>
+							</tr>
+							<tr><td></td></tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	</html>

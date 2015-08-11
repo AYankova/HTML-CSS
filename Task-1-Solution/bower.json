@@ -1,0 +1,15 @@
+{
+  "name": "Task-1-Solution",
+  "version": "0.0.0",
+  "authors": [
+    "AYankova <antonina.yankova@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

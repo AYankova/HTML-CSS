@@ -1,0 +1,17 @@
+table,th,td{
+	border: 1px solid grey;	
+	border-spacing: 0px;
+	line-height: 25px;
+}
+th{
+	text-align: center;
+}
+td{
+	text-align: left;
+}
+tfoot {
+	text-align: left;
+}
+.tcost{
+	font-weight: bold;
+}

@@ -1,0 +1,18 @@
+body{
+	font-family: 'consolas';
+	font-size: 16px;
+}
+
+p{
+	color: #0094ff;
+	text-align: justify;
+}
+
+p:first-line{
+	font-weight: bold;
+}
+
+p:first-letter{
+	font-family: Edwardian Script ITC;
+	font-size: 2.5em;
+}

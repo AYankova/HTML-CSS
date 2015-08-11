@@ -1,0 +1,33 @@
+ul{
+	list-style-type: none;
+	font-size: 20px;
+	display: block;
+}
+
+ul ul{
+	display: none;
+}
+
+ul > li > a:first-child:hover{
+	text-decoration: underline;
+}
+
+ul li:hover > ul{
+	display: block;
+	font-size: 18px;
+	margin-left: 5px;	
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul ul li a{
+	color: #888888;
+}
+
+ul ul li a:hover{
+	text-decoration: underline;
+}

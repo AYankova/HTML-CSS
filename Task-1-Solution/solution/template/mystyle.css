@@ -1,0 +1,86 @@
+html, body, div, ul, li,nav, h1,header,a, article, p{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+html, body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #575E5B;}
+
+header{
+    background-image: url('images/header-bg.png');
+    background-repeat: repeat;
+}
+
+#wrapper header h1{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-left: 17px;
+    margin-bottom: -5px;
+}
+
+header #nav, #searchBar #archives, #searchBar #search{
+    font-size: 14px;
+
+}
+
+#nav ul{
+    list-style: none;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -19px;
+}
+
+#nav ul li{
+    display: inline;
+    padding-right: 17px;
+    padding-top: 15px;
+}
+#searchBar{
+    background-color: black;
+    margin-left: 5px;
+    margin-right: -5px;
+    height: 38px;
+}
+#searchBar #archives {
+    float: left;
+    padding: 10px;
+}
+
+#searchBar #archives a{
+    text-decoration: none;
+    color: #c6c6c6;
+}
+
+#searchBar #search a{
+    color: #c6c6c6;
+    text-decoration: none;
+    float: right;
+    padding-right:  8px;
+    margin-top: 8px;
+}
+
+#content h1{
+    color: #575E5B;
+    text-align: left;
+    font-size: 24px;
+    clear: both;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+#content article{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 14px;
+}

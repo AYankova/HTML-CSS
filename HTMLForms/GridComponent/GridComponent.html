@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Grid Component</title>
+	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="6">	
+					Drag a column header and drop it here to group by that column
+				</th>
+			</tr>
+			<tr>
+				<th class="productID">
+					ProductID
+				</th>
+				<th class="productName">
+					Product name
+				</th>
+				<th class="unitPrice">
+					Unit Price
+				</th>
+				<th class="quantity">
+					Quantity per unit
+				</th>
+				<th class="unitsInStock">
+					Units in stock
+				</th>
+				<th class="discontinued">
+					Discontinued
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<input type="text" id="productID" class="inProductId" />			
+				</th>
+				<th>
+					<input type="text" id="productName" class="inProductName"/>
+				</th>
+				<th>
+					<input type="text" id="unitPrice" class="inUnitPrice"/>
+					<img src="0.png" class="img" alt="0" />
+				</th>
+				<th>
+					<input type="text" id="quantity" class="inQuantity"/>
+				</th>
+				<th>
+					<input type="text" id="unitsInStock" class="inUnitsInStock"/>
+					<img src="0.png" class="img" alt="0" />
+				</th>
+				<th>
+					<input type="checkbox" id="discontinued"/>
+					<img src="0.png" class="img" alt="0" />
+				</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="6">
+					<img src="1.png"
+					alt="1" class="img" />
+					<img src="2.png"
+					alt="2" class="img" />
+					<input type="button" class="selected" value="1" />
+					<input type="button" class="pages" value="2" />
+					<input type="button" class="pages" value="3" />
+					<input type="button" class="pages" value="4" />
+					<input type="button" class="pages" value="5" />
+					<input type="button" class="pages" value="6" />
+					<input type="button" class="pages" value="7" />
+					<input type="button" class="pages" value="8" />
+					<input type="button" class="pages" value="9" />
+					<input type="button" class="pages" value="10" />
+					<span class="pages">...</span>
+					<img src="3.png"
+					alt="3" class="img"/>
+					<img src="4.png"
+					alt="4" class="img"/>
+					<span class="pagesize" >Page size: <input type="number" value="10" class="page-size"/></span>
+					<span id="all-items" class="all-items">335104 items in 33511 pages</span>
+				</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Chai</td>
+				<td>$18.00</td>
+				<td>10 boxes x 20 bags</td>
+				<td>39</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Chang</td>
+				<td>$19.00</td>
+				<td>24 - 12 oz bottles</td>
+				<td>17</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Aniseed Syrup</td>
+				<td>$10.00</td>
+				<td>12 - 550 ml bottles</td>
+				<td>13</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Chef Anton's Cajun Seasoning</td>
+				<td>$22.00</td>
+				<td>48 - 6 oz jars</td>
+				<td>53</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Chef Anton's Gumbo Mix</td>
+				<td>$21.35</td>
+				<td>36 boxes</td>
+				<td>0</td>
+				<td><input type="checkbox" checked disabled/></td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Grandma's Boysenberry Spread</td>
+				<td>$25.00</td>
+				<td>12 - 8 oz chars</td>
+				<td>120</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Uncle Bob's Organic Dried Pears</td>
+				<td>$30.00</td>
+				<td>12 - 1 lb pkgs.</td>
+				<td>15</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Northwoods Cranberry Sauce</td>
+				<td>$40.00</td>
+				<td>12 - 12 oz jars</td>
+				<td>6</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Mishi Kobe Niku</td>
+				<td>$97.00</td>
+				<td>18 - 500 g pkgs.</td>
+				<td>29</td>
+				<td><input type="checkbox" checked disabled/></td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>Ikura</td>
+				<td>$31.00</td>
+				<td>12 - 200 ml jars</td>
+				<td>31</td>
+				<td><input type="checkbox" disabled/></td>
+			</tr>
+		</tbody>
+
+	</table>
+</body>
+</html>

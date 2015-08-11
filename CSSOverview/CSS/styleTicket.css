@@ -1,0 +1,44 @@
+﻿table {
+    background-color: #595959;
+    text-align: left;
+    font-family: Arial;
+    padding-right: 30px;
+}
+
+th {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+td {
+    vertical-align: top;
+    height: 30px;
+}
+
+th, .grey{
+    color: #808080;
+    height: 30px;
+}
+
+a {
+    color: #e4e966;
+    text-decoration: none;
+}
+
+td:first-of-type {
+    padding-right: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: #ff6a00;
+}

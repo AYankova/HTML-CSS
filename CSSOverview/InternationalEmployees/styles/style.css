@@ -1,0 +1,42 @@
+body{
+	margin: 0 auto;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #D5D4C2;
+	width: 540px;
+	font-size: 16px;
+}
+
+table th{
+	text-align: left;
+	background-color: #56B906;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding: 7px 5px;
+	border: 1px solid #D5D4C2;
+}
+
+td{
+	border-left: 1px solid #D5D4C2;
+	padding: 6px 5px;
+}
+tr:nth-child(2n){
+	background-color: #ECECD8;
+}
+
+th:last-child{
+	width: 18%;
+}
+
+img{
+	width: 22px;
+	height: 18px;
+	vertical-align: top;
+}
+
+input[type=checkbox]{
+	box-shadow: 1px 1px 2px black inset;
+}

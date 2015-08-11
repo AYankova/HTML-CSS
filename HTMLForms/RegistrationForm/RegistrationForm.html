@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Registration Form</title>
+	<link rel="stylesheet"
+	href="Styles/styles.css"/>
+</head>
+<body>
+	<form method="get" action="apply-now.php">
+		<table>
+			<tfoot>
+				<tr>
+					<td colspan="2">
+						<input type="submit" name="submit" value="Submit">
+						<input type="reset" name="reset" value="Clear This Form">
+					</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td class="fcolumn">
+						<label for="lname">Last Name</label>	
+					</td>
+					<td class="scolumn">
+						<input type="text" name="lname" id="lname" required size="30" pattern="[a-zA-Z]{3,30}" />
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="fname">First Name</label>	
+					</td>
+					<td class="scolumn">
+						<input type="text" name="fname" id="fname" required size="30" pattern="[a-zA-Z]{3,30}"/>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn"> 
+						<label for="address">Address</label>	
+					</td>
+					<td class="scolumn">
+						<textarea name="address" id="address" cols="24" rows="3" required></textarea>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="city">City</label>	
+					</td>
+					<td class="scolumn">
+						<input type="text" name="city" id="city" required size="12" />
+						<label for="state">State</label>
+						<input type="text" name="state" id="state" required size="5" />
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="zcode">Zip/Postal Code</label>	
+					</td>
+					<td class="scolumn">
+						<input type="text" name="zcode" id="zcode" required size="10" pattern="[0-9]{4,15}"/>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="country">Country</label>	
+					</td>
+					<td class="scolumn">
+						<select name="country" id="country" required>
+							<option value="">Select a country option</option>
+							<option value="usa">USA</option>
+							<option value="gr">Greece</option>
+							<option value="bg" selected>Bulgaria</option>
+							<option value="uk">United Kingdom</option>
+						</select>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="p1">Phone(country code, area code, number)</label>	
+					</td>
+					<td class="scolumn">
+						(+<input type="text"  id="p1" required size="4" pattern="[0-9]{3}"/>)
+						<input type="text" id="p2" required size="4" pattern="[0-9]{3}"/>
+						<input type="text" id="p3" required size="8" pattern="[0-9]{6,}"/>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="email">Email</label>	
+					</td>
+					<td class="scolumn">
+						<input type="email" name="email" id="email" required size="30" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"/>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="bdate">Birth date</label>	
+					</td>
+					<td class="scolumn">
+						<input type="text" name="bdate" id="bdate" required size="25" placeholder="дд.мм.гггг г."/>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="gender">Gender</label>	
+					</td>
+					<td class="scolumn">
+						<select name="gender" id="gender" required>
+							<option value="">Select...</option>
+							<option value="2">Female</option>
+							<option value="1" selected>Male</option>
+							<option value="3">Other</option>
+						</select>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">Starting date
+					</td>
+					<td class="scolumn">
+						<input type="radio" id="sp2015" value="1" name="start" checked />
+						<label for="sp2015">Spring 2015</label>
+						<input type="radio" id="sm2015" value="2" name="start"/>
+						<label for="sm2015">Summer 2015</label>
+					</td>	
+				</tr>
+				<tr>
+					<td class="fcolumn">
+						<label for="comments">Comments/Questions</label>	
+					</td>
+					<td class="scolumn">
+						<textarea name="comments" id="comments" cols="24" rows="5"></textarea>
+					</td>	
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
